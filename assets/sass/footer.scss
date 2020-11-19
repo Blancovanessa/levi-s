@@ -1,0 +1,37 @@
+#footer {
+    background-color: var(--main);
+   flex-direction: column;
+    .footer-title {
+        .field {
+            button {
+                background-color: var(--yellow);
+                color: var(--main);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                border-left: 10px;
+                height: 40px;
+                margin-left: 2%;
+                border: var(--yellow);
+                font-style: italic;
+            }
+        }
+    }
+    h1 {
+        color: var(--white);
+        margin-left: 25px;
+    }
+    p {
+        color: var(--white);
+        margin-left: 48px;
+    }
+    h3 {
+        color: var(--white);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        margin-left: 40px;
+    }
+    .term {
+        margin-left: 35px;
+    }
+}
+   

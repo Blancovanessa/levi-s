@@ -1,0 +1,159 @@
+#home {
+    flex-direction: column;
+    
+    .full-banner-home {
+        width: 100%;
+        height:45vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        background-image: url("../images/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg");
+        background-size: cover;
+        background-position-x: 39%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        margin-top: -80px;
+        align-items: flex-end;
+        h1 {
+            color: var(--yellow);
+            font-size: 35px;
+            text-align: center;
+            margin-left: 7px;
+            margin-top: 80px;
+            b {
+                color: var(--yellow);
+                margin-left: 4px;
+    
+                
+            }
+        }
+        button {
+            background-color: var(--yellow);
+            color: var(--main);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            height: 44px;
+            margin-left: 35%;
+            border: var(--yellow);
+        }
+    }
+    .blocks {
+        background-color: var(--main-30);
+        display: block;
+        .block {
+            margin-top: 30px;
+            margin-left: 20px;
+         margin-right: 20px;
+            background-color: var(--grey);
+           display: block;
+             h1 {
+            color: var(--yellow);
+            font-size: 30px;
+            margin-left: 6%;
+            }
+            p {
+            color: var(--black);
+            font-size: 20px;
+            margin-left: 6%;
+            }
+        }
+    } 
+    .main {
+        img {
+        width: 100%;
+        height: 100%;
+        }
+        p  {
+            color: var(--main);
+            font-size: 26px;
+            margin-right: 32px;
+            margin-left: 40px;
+        }
+        button {
+            background-color: var(--yellow);
+            color: var(--main);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            border-left: 10px;
+            height: 32px;
+            margin-left: 38%;
+            border: var(--yellow);
+            font-style: italic;
+        }
+        
+    }
+ 
+}
+
+
+@media (min-width: 1200px) {
+    #home {
+        background-color: var(--main-30);
+        .full-banner-home {
+            width: 100%;
+            height: 750px;
+            position: relative;
+            background-image: url("../images/brooke-lark-oaz0raysASk-unsplash.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: -80px;
+            h1 {
+                color:var(--yellow);
+                font-size: 100px;
+                position: center;
+                margin-left: 50px;
+                b {
+                    color: var(--yellow);
+                    font-size:100px;
+                }
+            }
+            button {
+                background-color: var(--yellow);
+                color: var(--main);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                border-left: 30px;
+                height: 50px;
+                margin-left: 38%;
+                border: var(--yellow);
+                font-style: italic;  
+            }
+        }
+        .blocks {
+            flex-direction: row;
+            background-color: var(--main-30);
+            box-shadow: 10px 9px 8px  rgba(50, 50, 50, 0.77);
+            .block {
+                width: 90%;
+                height: 100%;
+                margin-left: 60px;
+                margin-top: -10px;
+                
+            }
+        }
+        .main {
+            img {
+                width: 98%;
+                height: 775px;
+                margin-left: 10px;
+            }
+            p {
+                color: var(--yellow);
+                margin-left: 40%;
+            }
+            button {
+                background-color: var(--yellow);
+                color: var(--main);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                border-left: 40px;
+                height: 30px;
+                margin-left: 55%;
+                border: var(--yellow);
+                font-style: italic;  
+            }
+        }
+        
+    }
+
+} 

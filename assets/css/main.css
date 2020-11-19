@@ -1,0 +1,642 @@
+:root {
+  --main: #422323;
+  --main-30: #725B5B;
+  --white: #FFF;
+  --black: #000;
+  --yellow: #FFDF6C;
+  --grey: #ABA3A3;
+}
+
+#home {
+  flex-direction: column;
+}
+#home .full-banner-home {
+  width: 100%;
+  height: 45vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  background-image: url("../images/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg");
+  background-size: cover;
+  background-position-x: 39%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  margin-top: -80px;
+  align-items: flex-end;
+}
+#home .full-banner-home h1 {
+  color: var(--yellow);
+  font-size: 35px;
+  text-align: center;
+  margin-left: 7px;
+  margin-top: 80px;
+}
+#home .full-banner-home h1 b {
+  color: var(--yellow);
+  margin-left: 4px;
+}
+#home .full-banner-home button {
+  background-color: var(--yellow);
+  color: var(--main);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  height: 44px;
+  margin-left: 35%;
+  border: var(--yellow);
+}
+#home .blocks {
+  background-color: var(--main-30);
+  display: block;
+}
+#home .blocks .block {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--grey);
+  display: block;
+}
+#home .blocks .block h1 {
+  color: var(--yellow);
+  font-size: 30px;
+  margin-left: 6%;
+}
+#home .blocks .block p {
+  color: var(--black);
+  font-size: 20px;
+  margin-left: 6%;
+}
+#home .main img {
+  width: 100%;
+  height: 100%;
+}
+#home .main p {
+  color: var(--main);
+  font-size: 26px;
+  margin-right: 32px;
+  margin-left: 40px;
+}
+#home .main button {
+  background-color: var(--yellow);
+  color: var(--main);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  border-left: 10px;
+  height: 32px;
+  margin-left: 38%;
+  border: var(--yellow);
+  font-style: italic;
+}
+
+@media (min-width: 1200px) {
+  #home {
+    background-color: var(--main-30);
+  }
+  #home .full-banner-home {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-image: url("../images/brooke-lark-oaz0raysASk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+  }
+  #home .full-banner-home h1 {
+    color: var(--yellow);
+    font-size: 100px;
+    position: center;
+    margin-left: 50px;
+  }
+  #home .full-banner-home h1 b {
+    color: var(--yellow);
+    font-size: 100px;
+  }
+  #home .full-banner-home button {
+    background-color: var(--yellow);
+    color: var(--main);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-left: 30px;
+    height: 50px;
+    margin-left: 38%;
+    border: var(--yellow);
+    font-style: italic;
+  }
+  #home .blocks {
+    flex-direction: row;
+    background-color: var(--main-30);
+    box-shadow: 10px 9px 8px rgba(50, 50, 50, 0.77);
+  }
+  #home .blocks .block {
+    width: 90%;
+    height: 100%;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  #home .main img {
+    width: 98%;
+    height: 775px;
+    margin-left: 10px;
+  }
+  #home .main p {
+    color: var(--yellow);
+    margin-left: 40%;
+  }
+  #home .main button {
+    background-color: var(--yellow);
+    color: var(--main);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-left: 40px;
+    height: 30px;
+    margin-left: 55%;
+    border: var(--yellow);
+    font-style: italic;
+  }
+}
+#about {
+  flex-direction: column;
+  background-color: var(--main-30);
+}
+#about .nick img {
+  width: 100%;
+  height: 100%;
+}
+#about h1 {
+  color: var(--yellow);
+  font-weight: 800;
+  font-size: 95px;
+  transform: rotate(735deg);
+  bottom: 5px;
+  right: 10px;
+  margin: -15%;
+  margin-left: 15%;
+}
+#about .blocks {
+  background-color: var(--main-30);
+  display: block;
+}
+#about .blocks .block {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--grey);
+  display: block;
+}
+#about .blocks .block p {
+  color: var(--black);
+  font-size: 20px;
+  margin-left: 6%;
+}
+#about .mohamed img {
+  width: 100%;
+  height: 100%;
+}
+#about .mohamed p {
+  color: var(--yellow);
+  background-color: var(--main);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#about .copa img {
+  width: 100%;
+  height: 100%;
+}
+#about .copa p {
+  color: var(--yellow);
+  background-color: var(--main);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media (min-width: 1200px) {
+  #about {
+    background-color: var(--main-30);
+  }
+  #about .nick img {
+    width: 100%;
+    height: 100%;
+    margin-top: -80px;
+  }
+  #about .blocks {
+    background-color: var(--main-30);
+    width: 50%;
+  }
+  #about .blocks .block {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: var(--grey);
+  }
+  #about .blocks .block p {
+    max-width: 600px;
+  }
+  #about .mohamed img {
+    width: 100%;
+    height: 100vh;
+  }
+  #about .mohamed p {
+    color: var(--yellow);
+    background-color: var(--main);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  #about .copa img {
+    width: 100%;
+    height: 100vh;
+  }
+  #about .copa p {
+    color: var(--yellow);
+    background-color: var(--main);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+header {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  z-index: 4;
+  background-color: var(--main);
+}
+header .menu {
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+}
+header .menu .logo {
+  position: absolute;
+  transition: all 1s ease-in-out;
+  top: 10px;
+  width: 72px;
+  right: calc(27vw - 50px);
+  z-index: 7;
+}
+header .menu .logo img {
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  transition: all 0.4s ease-in-out;
+}
+header .menu .btn-open {
+  opacity: 1;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: 20px;
+  top: calc(40px - 15px);
+  z-index: 2;
+  transition: opacity 0.3s ease-in-out;
+  outline: none;
+  background-color: var(--main-30);
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-shadow: 0px 0px 10px var(--main);
+  z-index: 5;
+}
+header .menu .btn-open svg {
+  width: 40px;
+  height: 43px;
+}
+header .menu .btn-close {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: 20px;
+  top: 20px;
+  z-index: 2;
+  transition: opacity 0.3s ease-in-out;
+  outline: none;
+  z-index: 5;
+}
+header .menu .btn-close svg {
+  width: 30px;
+  height: 30px;
+}
+header .menu nav {
+  list-style: none;
+  width: 300px;
+  margin: 0;
+  height: 100vh;
+  background-color: #f8f8f8;
+  position: fixed;
+  right: -300px;
+  top: 0;
+  padding-bottom: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: right 0.4s ease-in-out;
+  padding: 40px 10px 0;
+  z-index: 4;
+}
+header .menu ul {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  padding-top: 200px;
+}
+header .menu li {
+  align-items: center;
+  padding: 2px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+header .menu a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--main);
+}
+header .menu.open .logo {
+  position: absolute;
+  right: calc(300px - 200px);
+  padding: 40px 0 0;
+  margin: 0;
+}
+header .menu.open .logo img {
+  width: 100px;
+  height: 100px;
+}
+header .menu.open .btn-open {
+  opacity: 0;
+  pointer-events: none;
+}
+header .menu.open .btn-close {
+  opacity: 1;
+  pointer-events: initial;
+}
+header .menu.open nav {
+  right: 0;
+}
+header .menu.open nav ul li {
+  opacity: 1;
+}
+header .menu.open nav .info {
+  display: none;
+}
+
+#footer {
+  background-color: var(--main);
+  flex-direction: column;
+}
+#footer .footer-title .field button {
+  background-color: var(--yellow);
+  color: var(--main);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-left: 10px;
+  height: 40px;
+  margin-left: 2%;
+  border: var(--yellow);
+  font-style: italic;
+}
+#footer h1 {
+  color: var(--white);
+  margin-left: 25px;
+}
+#footer p {
+  color: var(--white);
+  margin-left: 48px;
+}
+#footer h3 {
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-left: 40px;
+}
+#footer .term {
+  margin-left: 35px;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#menu {
+  flex-direction: column;
+  background-color: var(--main-30);
+}
+#menu .header-menu {
+  background-image: url("../images/katie-smith-uQs1802D0CQ-unsplash.jpg");
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-size: cover;
+  margin-top: -60px;
+}
+#menu .header-menu h1 {
+  color: var(--yellow);
+  font-size: 70px;
+  margin-left: 33%;
+}
+#menu .menu-itens img {
+  width: 100%;
+  min-width: 394px;
+  max-width: 380px;
+  display: block;
+}
+#menu .menu-itens h2 {
+  color: var(--yellow);
+  font-size: 22px;
+  margin-left: 2%;
+}
+
+@media (min-width: 1200px) {
+  #menu {
+    width: 100%;
+  }
+
+  .menu-itens h2 {
+    text-align: center;
+    margin-top: -3em;
+    color: var(--white);
+    text-align: center;
+    font-size: 15em;
+    font-weight: bold;
+  }
+
+  .menu-itens img {
+    width: 100%;
+    height: 400px;
+    margin-top: 1em;
+    border-radius: 6px;
+    margin-left: 28px;
+  }
+
+  .menu-itens {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
+  .menu-itens h2 {
+    color: var(--yellow);
+    font-size: 5em;
+    line-height: 3em;
+  }
+}
+#contact {
+  flex-direction: column;
+  background-color: var(--main-30);
+}
+#contact .form {
+  width: 100%;
+  padding: 1em 3em;
+}
+#contact .form div h2 {
+  color: var(--yellow);
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+#contact .form .fields .field {
+  margin-bottom: 2em;
+  border: 2px solid var(--main);
+  padding: 0.8em;
+  border-radius: 7px;
+}
+#contact .form .fields .field input, #contact label,
+#contact textarea {
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  background-color: transparent;
+  color: var(--yellow);
+  padding: 0.8em;
+}
+#contact .form .fields .field textarea {
+  height: 100px;
+}
+#contact .form button {
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: var(--main);
+  border: 2px solid var(--main-30);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: var(--yellow);
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 2em;
+}
+#contact .form button:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+#contact .form button:active {
+  opacity: 0.1;
+}
+#contact .blocks .block {
+  margin-top: -10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: var(--grey);
+  display: block;
+}
+#contact .blocks .block h1 {
+  color: var(--yellow);
+  font-size: 25px;
+  margin-left: 13%;
+}
+#contact .blocks .block h2 {
+  color: var(--yellow);
+  font-size: 17px;
+  margin-left: 1%;
+}
+
+@media (min-width: 1200px) {
+  #contact .full-banner-contact {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url("../images/ja-ma--gOUx23DNks-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+  }
+  #contact .form .fields .field {
+    width: 50%;
+  }
+  #contact .form .div-button {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  #contact .blocks {
+    box-shadow: 10px 9px 8px rgba(50, 50, 50, 0.77);
+    flex-direction: row;
+    background-color: var(--main);
+  }
+  #contact .blocks .block {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: var(--grey);
+  }
+  #contact .blocks .block h1 {
+    color: var(--yellow);
+    font-size: 25px;
+    margin-left: 13%;
+    width: 50%;
+  }
+  #contact .blocks .block h2 {
+    color: var(--yellow);
+    font-size: 25px;
+    margin-left: 5%;
+  }
+}
+#error {
+  background-color: var(--main);
+  position: absolute;
+}
+#error .egg {
+  width: 100%;
+  height: 100%;
+}
+#error h1 {
+  font-size: 100px;
+  color: var(--main-30);
+  margin-left: 120px;
+}
+#error h2 {
+  font-size: 40px;
+  color: var(--yellow);
+  margin-left: 20px;
+}
+
+@media (min-width: 1200px) {
+  #error {
+    flex-direction: row;
+  }
+  #error .egg {
+    width: 100%;
+    height: 50%;
+  }
+  #error h1 {
+    font-size: 150px;
+    color: var(--main-30);
+    margin-left: 500px;
+    transform: rotate(20deg);
+  }
+  #error h2 {
+    font-size: 60px;
+    color: var(--yellow);
+    margin-left: 400px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

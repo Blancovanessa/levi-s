@@ -1,0 +1,146 @@
+header { 
+      height: 80px;
+      width: 100%;
+      position: relative;
+      z-index: 4;
+      background-color: var(--main);
+      .menu {
+        width: 100%;
+        height: 80px;
+        z-index: 10;
+        .logo {
+        position: absolute;
+        transition: all 1s ease-in-out;
+        top: 10px;
+        width: 72px;
+        right: calc(27vw - 50px);
+        z-index: 7;
+            img {
+                width: 100px;
+                height: 100px;
+                padding: 2px;
+                transition: all .4s ease-in-out;
+            }
+        }
+        .btn-open {
+            opacity: 1;
+            position: absolute;
+            background-color: transparent;
+            border: none;
+            right: 20px;
+            top: calc(40px - 15px);
+            z-index: 2;
+            transition: opacity .3s ease-in-out;
+            outline: none;
+            background-color: var(--main-30);
+            border-radius: 10px;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            box-shadow: 0px 0px 10px var(--main);
+            z-index: 5;
+            svg {
+                width: 40px;
+                height: 43px;
+            }
+        }
+          .btn-close {
+            opacity: 0;
+            pointer-events: none;
+            position: absolute;
+            background-color: transparent;
+            border: none;
+            right: 20px;
+            top: 20px;
+            z-index: 2;
+            transition: opacity .3s ease-in-out;
+            outline: none;
+            z-index: 5;
+            svg {
+                width: 30px;
+                height: 30px;
+              }
+          }
+        nav {
+            list-style: none;
+            width: 300px;
+            margin: 0;
+            height: 100vh;
+            background-color: #f8f8f8;
+            position: fixed;
+            right: -300px;
+            top: 0;
+            padding-bottom: 0;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            transition: right .4s ease-in-out;
+            padding: 40px 10px 0;
+            z-index: 4;
+
+          }
+        ul {
+            height: 100vh;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            padding-top: 200px;
+        }
+        li {
+            align-items: center;
+            padding: 2px;
+            opacity: 0;
+            transition: opacity .4s ease-in-out;
+        }
+        a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            color: var(--main);
+        }
+    
+        &.open {
+        .logo {
+          position: absolute;
+          right: calc(300px - 200px);
+          padding: 40px 0 0;
+          margin: 0;
+         
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+  
+        .btn-open {
+          opacity: 0;
+          pointer-events: none;
+        }
+  
+        .btn-close {
+          opacity: 1;
+          pointer-events: initial;
+        }
+  
+        nav {
+          right: 0;
+  
+          ul {
+            li {
+              opacity: 1;
+            }
+          }
+  
+          .info {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+

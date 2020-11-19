@@ -1,0 +1,116 @@
+#about {
+    flex-direction: column;
+    background-color: var(--main-30);
+    .nick {
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+    h1 {
+        color: var(--yellow);
+        font-weight: 800;
+        font-size: 95px;
+        transform: rotate(735deg);
+        bottom: 5px;
+        right: 10px;
+        margin: -15%;
+        margin-left: 15%;
+    }
+    .blocks {
+        background-color: var(--main-30);
+        display: block;
+        .block {
+            margin-top: 30px;
+            margin-left: 20px;
+         margin-right: 20px;
+            background-color: var(--grey);
+           display: block;
+           p {
+            color: var(--black);
+            font-size: 20px;
+            margin-left: 6%;
+           }
+        }
+    }
+    .mohamed {
+        img {
+            
+            width: 100%;
+            height: 100%;
+        }
+        p {
+            color: var(--yellow);
+            background-color: var(--main);
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .copa {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        p {
+            color: var(--yellow);
+            background-color: var(--main);
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+    }
+    
+}
+
+
+@media (min-width: 1200px) {
+    #about {
+        background-color: var(--main-30);
+        .nick {
+            img {
+                width: 100%;
+                height: 100%;
+                margin-top: -80px;
+                
+            }
+        }
+        .blocks {
+             background-color: var(--main-30);
+             width: 50%;
+            .block {
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-left: 50px;
+                margin-right: 50px;
+                background-color: var(--grey);
+               p {
+                max-width: 600px;
+               }
+            }
+        }
+        .mohamed {
+            img {
+                
+                width: 100%;
+                height: 100vh;
+            }
+            p {
+                color: var(--yellow);
+                background-color: var(--main);
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        }
+        .copa {
+            img {
+                width: 100%;
+                height: 100vh;
+            }
+            p {
+                color: var(--yellow);
+                background-color: var(--main);
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif
+            }
+        }
+    }
+}

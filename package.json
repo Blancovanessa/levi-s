@@ -1,7 +1,25 @@
 {
-    "name": "levis",
-    "dependencies": {
-        "package-json": "^6.5.0",
-        "sass": "^1.28.0"
-    }
+  "name": "levi-s",
+  "version": "1.0.0",
+  "description": "Projeto Hcodelab",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blancovanessa/levi-s.git"
+  },
+  "keywords": [
+    "Restaurante"
+  ],
+  "author": "Vanessa Blanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blancovanessa/levi-s/issues"
+  },
+  "homepage": "https://github.com/Blancovanessa/levi-s#readme",
+  "dependencies": {
+    "sass": "^1.28.0"
+  }
 }

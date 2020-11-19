@@ -1,0 +1,66 @@
+#menu {
+    flex-direction: column;
+    background-color: var(--main-30);
+    .header-menu {
+        background-image: url('../images/katie-smith-uQs1802D0CQ-unsplash.jpg');
+        width: 100%;
+        height:50vh;
+        position: relative;
+        background-size: cover;
+        margin-top: -60px;
+        h1 {
+            color: var(--yellow);
+    font-size: 70px;
+    margin-left: 33%;
+        }
+    }
+    .menu-itens {
+        img {
+            width: 100%;
+            min-width: 394px;
+            max-width: 380px;
+            display: block; 
+        }
+        h2 {
+            color: var(--yellow);
+            font-size: 22px;
+            margin-left: 2%;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #menu {
+       width: 100%;
+    
+    }
+    .menu-itens h2 {
+        text-align: center;
+        margin-top: -3em;
+        color: var(--white);
+        text-align: center;
+        font-size: 15em;
+        font-weight: bold;
+    }
+    
+    .menu-itens img {
+        width: 100%;
+        height: 400px;
+        margin-top: 1em;
+        border-radius: 6px;
+        margin-left: 28px;
+    }
+     .menu-itens {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    
+     .menu-itens h2 {
+        color: var(--yellow);
+        font-size: 5em;
+        line-height: 3em;
+    }
+}
